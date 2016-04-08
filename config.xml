@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.architecgraphic.b'liq"
         versionCode="10" 
-        version   = “1.3.0”>
+        version   = "1.3.0">
 
 
 <!-- the default icon to be use, for BlackBerry must be less than 16kb -->
