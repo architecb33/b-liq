@@ -1,30 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.b’liq”
-        version   = “1.7.0”>
+        id        = "com.architecgraphic.b’liq”
+        versionCode="10" 
+        version   = “1.6.0”>
+		
+	<!-- For more information about using config.xml, see
+		https://build.phonegap.com/docs/config-xml -->
+
+    
+    <!-- define which version of phonegap to use, not required -->
+    
+	
+	<!-- this app will have no device api access -->
+	
+	<preference name="orientation" value=“portrait” />
+    <preference name="target-device" value="universal" />  
+	<preference name="fullscreen" value="true" />
+<preference name="stay-in-webview" value=“true” />
+
+	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
+    <icon src="icon.png"/>
+
 
     <name>B’LIQ Homeville</name>
 
     <description>
-        m-brochure of B’LIQ Homeville. Designed and created by Architec graphic boutique.
+        m-brochure of B’LIQ Homeville. Designed and created by Architec Graphic Boutique.
     </description>
 
-    <author href="http://architecgraphic.com" email=“abednego@architecgraphic.com">
-        Architec graphic boutique
+    <author href="https://architecgraphic.com" email="abednego@architecgraphic.com">
+        Architec Graphic Boutique 
     </author>
-
-
-  
-
-    <!-- Customize your app and platform with the preference element. -->
-    <preference name="orientation"                value=“portrait” />        <!-- all: default means both landscape and portrait are enabled -->
-    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
-    <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
-    <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
-    <preference name="stay-in-webview"            value="false" />          <!-- ios: external links should open in the default browser, 'true' would use the webview the app lives in -->
 
 
 
