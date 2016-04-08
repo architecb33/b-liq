@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.architecgraphic.b’liq”
-        versionCode="10" 
-        version   = “1.6.0”>
-		
-	<!-- For more information about using config.xml, see
-		https://build.phonegap.com/docs/config-xml -->
-
-    
-    <!-- define which version of phonegap to use, not required -->
-    
-	
-	<!-- this app will have no device api access -->
-	
-	<preference name="orientation" value=“portrait” />
-    <preference name="target-device" value="universal" />  
-	<preference name="fullscreen" value="true" />
-<preference name="stay-in-webview" value=“true” />
-
-	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
-    <icon src="icon.png"/>
-
-
-    <name>B’LIQ Homeville</name>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.architecgraphic.b'liq" versionCode="10" version="1.6.0">
+<!--
+ For more information about using config.xml, see
+		https://build.phonegap.com/docs/config-xml 
+-->
+<!--
+ define which version of phonegap to use, not required 
+-->
+<preference name="phonegap-version" value="3.3.0"/>
+<!--  this app will have no device api access  -->
+<preference name="permissions" value="none"/>
+<preference name="orientation" value="portrait"/>
+<preference name="target-device" value="universal"/>
+<preference name="fullscreen" value="true"/>
+<preference name="stay-in-webview" value="true"/><!--
+ the default icon to be use, for BlackBerry must be less than 16kb 
+-->
+<icon src="icon.png"/>    <name>B’LIQ Homeville</name>
 
     <description>
         m-brochure of B’LIQ Homeville. Designed and created by Architec Graphic Boutique.
