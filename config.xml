@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.architecgraphic.vieloft"
+        id        = "com.architecgraphic.b'liq"
         versionCode="10" 
-        version   = "2.0.4">
+        version   = "2.0.5">
         
-<preference name="phonegap-version" value="cli-6.0.0"/> 
-<preference name="permissions" value="none"/>
-<preference name="orientation" value="portrait"/>
-<preference name="target-device" value="universal"/>
-<preference name="fullscreen" value="false"/>
-<preference name="ios-statusbarstyle" value="black-opaque" />
-<preference name="detect-data-types" value="false" />   
-<preference name="exit-on-suspend" value="false" /> 
-<preference name="stay-in-webview" value="false" />
+      <preference name="permissions"                value="none"/>
+    <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="webviewbounce"              value="false" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
+    <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
+    <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
+
 
 
 
@@ -54,11 +53,6 @@
 <gap:splash src="Default-Portrait@2x.png" gap:platform="ios" width="1536" height="2048" />
 <gap:splash src="Default-Landscape@2x.png" gap:platform="ios" width="2048" height="1536" />
 
-  <access origin="sms:*" launch-external="yes" />
-  <access origin="geo:*" launch-external="yes" />
-  <access origin="mailto:*" launch-external="yes" />
-  <access origin="tel:*" launch-external="yes" />
-  <access origin="http://*" launch-external="yes" />
-<access origin="https://*" launch-external="yes" />
+
 
 </widget>
