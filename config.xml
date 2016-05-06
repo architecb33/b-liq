@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns="http://www.w3.org/ns/widgets" 
-xmlns:gap="http://phonegap.com/ns/1.0" 
-id="com.architecgraphic.b'liq" 
-versionCode="10" version="2.0.4">
-
-<preference name="phonegap-version" value="cli-6.0.0"/>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.architecgraphic.vieloft"
+        versionCode="10" 
+        version   = "2.0.4">
+        
+<preference name="phonegap-version" value="cli-6.0.0"/> 
 <preference name="permissions" value="none"/>
 <preference name="orientation" value="portrait"/>
 <preference name="target-device" value="universal"/>
