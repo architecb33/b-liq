@@ -3,15 +3,19 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.architecgraphic.b'liq"
         versionCode="10" 
-        version   = "2.0.5">
+        version   = "2.0.6">
         
       <preference name="permissions"                value="none"/>
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
-    <preference name="fullscreen"                 value="true" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
     <preference name="webviewbounce"              value="false" />           <!-- ios: control whether the screen 'bounces' when scrolled beyond the top -->
     <preference name="prerendered-icon"           value="true" />           <!-- ios: if icon is prerendered, iOS will not apply it's gloss to the app's icon on the user's home screen -->
     <preference name="exit-on-suspend"            value="false" />          <!-- ios: if set to true, app will terminate when home button is pressed -->
+    <preference name="stay-in-webview" value="false" />
+<preference name="ios-statusbarstyle" value="default" />
+<preference name="detect-data-types" value="false" />
+
 
 
 
